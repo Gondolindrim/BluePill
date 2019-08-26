@@ -1,0 +1,170 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L acheronSymbols:STM32F103x8_B-LQFP48 U1
+U 1 1 5D637D39
+P 5900 3850
+F 0 "U1" H 5825 3925 79  0000 L CNB
+F 1 "STM32F103x8_B-LQFP48" H 5150 3725 79  0000 L CNB
+F 2 "acheron_Components:LQFP-48_7x7mm_P0.5mm" H 5900 3850 50  0001 C CNN
+F 3 "" H 5900 3850 50  0001 C CNN
+	1    5900 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L acheronSymbols:TYPE-C-31-M12_13 J1
+U 1 1 5D63ADAB
+P 1575 3825
+F 0 "J1" H 1682 5245 50  0000 C CNN
+F 1 "TYPE-C-31-M12_13" H 1682 5152 50  0000 C CNN
+F 2 "acheron_Connectors:TYPE-C-31-M-12" V 1075 3875 50  0001 C CNN
+F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 1775 3875 50  0001 C CNN
+	1    1575 3825
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0101
+U 1 1 5D63D188
+P 1475 5275
+F 0 "#PWR0101" H 1475 5025 50  0001 C CNN
+F 1 "GND" H 1475 5150 25  0000 C CNN
+F 2 "" H 1475 5275 50  0001 C CNN
+F 3 "" H 1475 5275 50  0001 C CNN
+	1    1475 5275
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 5D63D73F
+P 1575 5275
+F 0 "#PWR0102" H 1575 5025 50  0001 C CNN
+F 1 "GND" H 1575 5150 25  0000 C CNN
+F 2 "" H 1575 5275 50  0001 C CNN
+F 3 "" H 1575 5275 50  0001 C CNN
+	1    1575 5275
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x20_Female J3
+U 1 1 5D63FE9D
+P 2500 6550
+F 0 "J3" H 2527 6527 50  0000 L CNN
+F 1 "Conn_01x20_Female" H 2527 6434 50  0000 L CNN
+F 2 "acheron_Connectors:HEADER_20PIN" H 2500 6550 50  0001 C CNN
+F 3 "~" H 2500 6550 50  0001 C CNN
+	1    2500 6550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x20_Female J2
+U 1 1 5D64195C
+P 1425 6575
+F 0 "J2" H 1452 6552 50  0000 L CNN
+F 1 "Conn_01x20_Female" H 1452 6459 50  0000 L CNN
+F 2 "acheron_Connectors:HEADER_20PIN" H 1425 6575 50  0001 C CNN
+F 3 "~" H 1425 6575 50  0001 C CNN
+	1    1425 6575
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x06_Female J4
+U 1 1 5D64314E
+P 4100 6550
+F 0 "J4" H 4127 6527 50  0000 L CNN
+F 1 "Conn_01x06_Female" H 4127 6434 50  0000 L CNN
+F 2 "acheron_Connectors:HEADER_6PIN_HORIZONTAL" H 4100 6550 50  0001 C CNN
+F 3 "~" H 4100 6550 50  0001 C CNN
+	1    4100 6550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x04_Female J5
+U 1 1 5D651052
+P 4100 7175
+F 0 "J5" H 4127 7152 50  0000 L CNN
+F 1 "Conn_01x04_Female" H 4127 7059 50  0000 L CNN
+F 2 "acheron_Connectors:HEADER_4PIN" H 4100 7175 50  0001 C CNN
+F 3 "~" H 4100 7175 50  0001 C CNN
+	1    4100 7175
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW1
+U 1 1 5D65711A
+P 2075 1775
+F 0 "SW1" H 2075 2064 50  0000 C CNN
+F 1 "SW_Push" H 2075 1971 50  0000 C CNN
+F 2 "acheron_Hardware:smdPushBtn" H 2075 1975 50  0001 C CNN
+F 3 "~" H 2075 1975 50  0001 C CNN
+	1    2075 1775
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0103
+U 1 1 5D65C147
+P 7050 5550
+F 0 "#PWR0103" H 7050 5300 50  0001 C CNN
+F 1 "GND" H 7050 5425 25  0000 C CNN
+F 2 "" H 7050 5550 50  0001 C CNN
+F 3 "" H 7050 5550 50  0001 C CNN
+	1    7050 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5D65EFBC
+P 2300 5650
+F 0 "#PWR?" H 2300 5400 50  0001 C CNN
+F 1 "GND" H 2300 5525 25  0000 C CNN
+F 2 "" H 2300 5650 50  0001 C CNN
+F 3 "" H 2300 5650 50  0001 C CNN
+	1    2300 5650
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5D65F7C5
+P 2300 5750
+F 0 "#PWR?" H 2300 5500 50  0001 C CNN
+F 1 "GND" H 2300 5625 25  0000 C CNN
+F 2 "" H 2300 5750 50  0001 C CNN
+F 3 "" H 2300 5750 50  0001 C CNN
+	1    2300 5750
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5D65FA21
+P 1225 7475
+F 0 "#PWR?" H 1225 7225 50  0001 C CNN
+F 1 "GND" H 1225 7350 25  0000 C CNN
+F 2 "" H 1225 7475 50  0001 C CNN
+F 3 "" H 1225 7475 50  0001 C CNN
+	1    1225 7475
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5D661D80
+P 3900 7375
+F 0 "#PWR?" H 3900 7125 50  0001 C CNN
+F 1 "GND" H 3900 7250 25  0000 C CNN
+F 2 "" H 3900 7375 50  0001 C CNN
+F 3 "" H 3900 7375 50  0001 C CNN
+	1    3900 7375
+	0    1    1    0   
+$EndComp
+$EndSCHEMATC
