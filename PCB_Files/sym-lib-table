@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name acheronSymbols)(type Legacy)(uri ${KIPRJMOD}/AcheronLibrary/symbols/acheronSymbols.lib)(options "")(descr ""))
+  (lib (name bluepill-rescue)(type Legacy)(uri ${KIPRJMOD}/bluepill-rescue.lib)(options "")(descr ""))
 )
